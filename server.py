@@ -16,6 +16,10 @@ def blog():
 def list():
     return render_template("lists.html")
 
+@app.route("/art")
+def art():
+    return render_template("art.html")
+
 
 
 if __name__ == "__main__":
