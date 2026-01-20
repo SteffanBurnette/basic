@@ -20,6 +20,10 @@ def list():
 def art():
     return render_template("art.html")
 
+@app.route("/art2")
+def art2():
+    return render_template("secondArt.html")
+
 
 
 if __name__ == "__main__":
