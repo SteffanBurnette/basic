@@ -1,0 +1,50 @@
+.main{
+    margin-top: 100px;
+    /*text-align: center; /*All inline elements will align to the center*/
+}
+
+.logo-img {
+     display: block;
+     width: 300px;
+     margin-bottom: 20px;
+     margin-left: auto; /*Automatically assigns the left and right equal margins centering the container*/
+     margin-right: auto;
+}
+
+.search-input{
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*buttons are display:inline by default*/
+.btn{
+    /*display: flex; Takes up all the avaliable space on the horizontal axis*/
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 10px;
+    background-color: #dfe1e5;
+    border: none; /*Removes the border*/
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    
+    
+}
